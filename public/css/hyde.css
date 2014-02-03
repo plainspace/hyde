@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 @media (min-width: 48rem) {
   html {
@@ -56,9 +56,18 @@ html {
 .sidebar {
   text-align: center;
   padding: 2rem 1rem;
-  color: rgba(255,255,255,.5);
+  color: rgba(0,0,0,.5);
   background-color: #202020;
 }
+
+.sidebar .avatar {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
 @media (min-width: 48rem) {
   .sidebar {
     position: fixed;
@@ -72,15 +81,15 @@ html {
 
 /* Sidebar links */
 .sidebar a {
-  color: #fff;
+  color: rgba(0,0,0,.5);;
 }
 
 /* About section */
 .sidebar-about h1 {
-  color: #fff;
+  color: rgba(0,0,0,.5);
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  font-size: 2.25rem;
+  font-weight: 100;
 }
 
 /* Sidebar nav */
@@ -177,6 +186,11 @@ a.sidebar-nav-item:focus {
 
 /* Base16 (http://chriskempson.github.io/base16/#default) */
 
+/* Plainspace */
+.theme-base-plainspace .sidebar {
+  background-color: #fff;
+}
+
 /* Red */
 .theme-base-08 .sidebar {
   background-color: #ac4142;
@@ -247,4 +261,11 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+
+.animate-rotate-delay {
+  -webkit-animation: rotate-delay 24s linear infinite;
+  -moz-animation: rotate-delay 24s linear infinite;
+  -o-animation: rotate-delay 24s linear infinite;
+  animation: rotate-delay 24s linear infinite;
 }

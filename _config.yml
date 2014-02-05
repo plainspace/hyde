@@ -1,24 +1,24 @@
 # Dependencies
-markdown:         redcarpet
-pygments:         true
+  markdown:         redcarpet
+  pygments:         true
 
 # Permalinks
-permalink:        pretty
+  permalink:        pretty
 
 # Setup
-title:            Plainspace
-tagline:          'A Jared Volpe thing'
-description:      'Leading Product Design @ Leap Motion.'
-url:              http://hyde.getpoole.com
+  title:            Plainspace
+  tagline:          'A Jared Volpe thing'
+  description:      'Leading Product Design @ Leap Motion.'
+  url:              http://plainspacedesign.com
 
 author:
-  name:           'Jared Volpe'
-  url:            https://twitter.com/plainspace
+  name:             'Jared Volpe'
+  url:              https://twitter.com/plainspace
 
-paginate:         5
+  paginate:         5
 
 # Custom vars
-version:          1.0.0
+  version:          1.0.0
 
 github:
-  repo:           https://github.com/plainspace/hyde
+  repo:             https://github.com/plainspace/

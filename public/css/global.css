@@ -1,0 +1,154 @@
+@-webkit-keyframes bg-pulse {
+  0% {background-color: #FEFCE8;}
+  70% {background-color: #E9F6F8;}
+  100% {background-color: #FFF5FA;}
+}
+
+@keyframes bg-pulse {
+  0% {background-color: #FEFCE8;}
+  70% {background-color: #E9F6F8;}
+  100% {background-color: #FFF5FA;}
+}
+
+@font-face {
+  font-family:Bello;
+  src:url(/public/webfonts/BelloPro.otf);
+}
+
+body {
+  animation: bg-pulse 8s infinite alternate;
+  -webkit-animation: bg-pulse 8s infinite alternate;
+}
+
+#plainspace-content {
+  margin:0 auto;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#plainspace-content a {
+  padding-right:5px;
+  padding-left:5px;
+  background-color:#fbf4a7;
+  color:#0780C0;
+  text-decoration:none;
+}
+
+#plainspace-content a:hover {
+  color:#FF0894;
+}
+
+#plainspace-content #by {
+  margin-top:40px;
+  margin-bottom:30px;
+  padding-right:35px;
+  color:#000;
+  text-align:right;
+  text-transform: uppercase;
+  font-weight:200;
+  font-size:20px;
+}
+
+#plainspace-content #build {
+  margin-bottom:30px;
+  color:#ff0894;
+  text-align:center;
+  font-size:60px;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#currently {
+  margin-bottom:30px;
+  color:#444;
+  text-transform:uppercase;
+  font-weight:200;
+  font-size:38px;
+  line-height:60px;
+}
+
+@media not screen and (1) {
+  #currently {
+    font-size:39px;
+  }
+}
+
+#work {
+  margin-bottom:30px;
+  color:#444;
+  text-transform:uppercase;
+  font-weight:200;
+  font-size:30px;
+  line-height:60px;
+}
+
+.high {
+  padding-right:5px;
+  padding-left:5px;
+  background-color:#ff0894;
+  color:#fff;
+}
+
+.bold {
+  font-weight:700;
+}
+
+.process {
+  color:#0780C0;
+  font-style:italic;
+}
+
+.block {
+  float:left;
+  margin:14px 36px 0 0;
+}
+
+.block.last {
+  margin-right:0;
+}
+
+#process,#notable {
+  margin-bottom:30px;
+  color:#444;
+  font-weight:200;
+  font-size:30px;
+  line-height:60px;
+}
+
+#oh {
+  padding-bottom:30px;
+  color:#444;
+  font-weight:200;
+  font-size:30px;
+  line-height:60px;
+}
+
+#resume {
+  padding-bottom:30px;
+  color:#444;
+  font-weight:200;
+  font-size:30px;
+  line-height:60px;
+}
+
+.hide {
+  display: none;
+}
+
+.more {
+  cursor: pointer;
+}
+
+
+@media not screen and (1) {
+  #plainspace {
+    margin-top:50px;
+  }
+}
+
+.sidebar nav a {
+  vertical-align:  middle;
+}
+
+.sidebar nav a:hover,
+.sidebar nav a:focus {
+  text-decoration: none;
+}
